@@ -30,8 +30,7 @@ Click on "More Details" to view detailed information about a specific meal.
 
 Click the heart icon to add or remove a meal from the favorites list.
 
-Setup
-No additional setup is required. The application uses local storage for storing favorites and fetches meal data from an external API.
+ The application uses local storage for storing favorites and fetches meal data from an external API.
 
 Technologies Used
 JavaScript
