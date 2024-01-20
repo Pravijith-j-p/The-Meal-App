@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    width: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image:url("food-4k-3gsi5u6kjma5zkj0.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Section */
+#header {
+    margin-top: 55px;
+    background-color: #8cf47559;
+}
+/* Navbar Styling */
+#nav {
+    background-color: #032625;
+    
+}
+
+#nav a.navbar-brand,
+#nav button.navbar-toggler {
+    color: rgb(4, 255, 188);
+    font-size: xx-large;
+}
+
+/* Search Bar Styling */
+#search-bar {
+    max-width: 600px;
+    padding: 10px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #73e1b1;
+    color: white;
+    border: none;
+}
+#my-search::placeholder {
+    color: #010000; 
+    opacity: 0.5;
+}
+
+/* Meal Card Styling */
+#card {
+    background-color: #ebf307;
+    padding: 20px;
+    color: rgb(3, 4, 22);
+    box-shadow: #47f70259 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+/* Meal Details Styling */
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #3db682; 
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+/* Favourites Offcanvas Styling */
+#favourites-body {
+    background-color: #097f50; 
+    padding: 20px;
+}
